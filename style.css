@@ -11,9 +11,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  /* right: 0; */
+  padding-top: 10px;
   width: 100%;
 }
+
 .container {
   width: 80%;
   margin: auto;
@@ -45,19 +46,34 @@
   color: white;
 }
 
-/* home */
+/*----- home section with modify by Amira Elmaghrabi ------*/
 .home {
- 
-  /* border: 1px solid tomato; */
   height: 100vh;
-  /* padding: 1px; */
-  /* overflow: auto; */
   padding-top: 200px;
   color: white;
   background-image: url(images/bg.jpg);
   background-size: 100% 100%;
   background-position: bottom;
 }
+.home .settings{
+  top: 20%;
+  left: 0;
+  position: fixed;
+  background-color:#686868;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.home .setting i{
+  font-size: 20px;
+  color: white;
+  
+  
+}
+
 .home button {
   padding: 15px 28px;
   border: none;
@@ -65,23 +81,211 @@
 }
 .home .btn1 {
   background-color: #8e7754;
+  font-size: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .home .btn2 {
   background-color: transparent;
   border: 1px solid white;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.home .btn2:hover{
+  background-color: #fff;
+  color:#8e7754
 }
 
 .home h1 {
   font-size: 76px;
   margin: 20px 0;
 }
+
 .home-caption {
   margin: auto;
   /* width: 25%; */
   text-align: center;
-  /* margin-top: 200px; */
-  /* padding-top: 200px; */
+  padding: 5rem;
+
 }
+.home-caption p{
+  font-size: 25px;
+}
+.home-caption .prg{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.home-caption .prg::after{
+  content: "";
+  animation: slider 10s infinite linear  ;
+  
+}
+@keyframes slider{
+  0%{
+      content: "& best bakery|";
+  }
+  1%{
+      content: "& best baker|"; 
+  }
+  2%{
+      content: "& best bake|";
+  }
+  3%{
+      content: "& best bak|";
+  }
+  4%{
+      content: "& best ba|";
+  }
+  5%{
+      content: "& best b|";
+  }
+  6%{
+      content: "& best |";
+  }
+  7%{
+      content: "& best|";
+  }
+  8%{
+      content: "& bes|";
+  }
+  9%{
+      content: "& be|";
+  }
+
+  10%{
+      content: "& b|";
+  
+  }
+
+  11%{
+      content: "& |";
+  
+  }
+  
+  12%{
+      content: "& b|";
+  
+  }
+  
+  13%{
+      content: "& be|";
+  
+  }
+  
+  14%{
+      content: "& bes|";
+  
+  }
+  
+  15%{
+      content: "& best|";
+  
+  }
+  
+  16%{
+      content: "& best |";
+  
+  }
+  
+  17%{
+      content: "& best b|";
+  
+  }
+  18%{
+      content: "& best ba|";
+  }
+  19%{
+      content: "& best bak|";
+  
+  }
+  
+  20%{
+      content: "& best bake|";  
+  
+  }
+  21%{
+      content: "& best baker|";
+  
+  }
+  
+  22%{
+      content: "& best bakery|";
+  
+  }
+  
+  23%{
+      content: "& best baker";
+  
+  }
+  
+  24%{
+      content: "& best bake|";
+  
+  }
+  
+  25%{
+      content: "& best bak|";
+  
+  }
+  
+  26%{
+      content: "& best ba|";
+  
+  }
+  
+  27%{
+      content: "& best b|";
+  
+  }
+  
+  28%{
+      content: "& best |";
+  
+  }
+  
+  29%{
+      content: "& best |";
+
+  }
+
+  30%{
+      content: "& best|";
+
+  }
+
+  31%{
+
+      content: "& bes|";
+
+  }
+
+  32%{
+      content: "& be|";
+
+  }
+
+  33%{
+      content: "& b|";
+
+  }
+  
+  34%{
+      content: "& |";
+
+  }
+
+  35%{
+      content: "&|";
+
+  }
+
+}
+/*------------------ end of home section--------------- */
+
 
 /* who we are  */
 .who {
