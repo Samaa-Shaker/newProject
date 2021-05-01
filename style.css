@@ -232,6 +232,53 @@ media feature
 
 }
 
+/* Contact section Style */
+                                /* Contact information section by Mohamed Amin */
+.contact{
+
+  overflow:auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-top: 80px;
+  background-color: #F8F8F8;
+ 
+}
+
+.contactinformation{
+  width: 50%;
+  padding: 0px 20px;
+  padding-right: 20px;
+  line-height: 30px;
+  float: left;
+  color: #686868;
+}
+.space{
+  overflow: auto;
+  width: 90%; 
+ margin:0 12.5%;
+ text-align: justify;
+ 
+}
+
+.contactinformation p{
+  padding: 25px 0px;
+  }
+
+.contactinformation h1{
+  padding-top: 25px;
+  color: black;
+}
+
+.contactinformation li{
+  padding: 10px 0px;
+}
+
+.contactMapImg{
+  width: 50%;
+  float: right;
+  height: 90%;
+}         
+                    /* End contact information section by Mohamed Amin */
 
 /*
 
