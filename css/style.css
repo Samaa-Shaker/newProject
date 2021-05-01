@@ -11,14 +11,14 @@
     position: fixed;
     top: 0;
     left: 0;
-    /* right: 0; */
+    
     width: 100%;
   }
   .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    /* background-color: gray; */
+  
   }
   
   .navbar ul {
@@ -34,8 +34,7 @@
   }
   
   .navbar li {
-    /* display: inline-block; */
-  
+    
     float: left;
     padding: 20px;
     text-transform: uppercase;
@@ -48,10 +47,9 @@
   /* home */
   .home {
    
-    /* border: 1px solid tomato; */
+   
     height: 100vh;
-    /* padding: 1px; */
-    /* overflow: auto; */
+   
     padding-top: 200px;
     color: white;
     background-image: url(images/bg.jpg);
@@ -77,28 +75,27 @@
   }
   .home-caption {
     margin: auto;
-    /* width: 25%; */
+   
     text-align: center;
-    /* margin-top: 200px; */
-    /* padding-top: 200px; */
+   
   }
   
   /* who we are  */
   .who {
-    /* background-color: tomato; */
+   
     overflow: auto;
     padding: 50px 0;
   }
   .left-side {
-    /* background-color: teal; */
+    
     width: 50%;
     float: left;
   }
   .right-side {
-    /* background-color: indigo; */
+    
     width: 50%;
     float: right;
-    /* padding-top: 50px; */
+  
     margin-top: 50px;
     padding-left: 50px;
   }
@@ -170,28 +167,7 @@
       float: left;
       padding: 20px;
   }
-  /*
   
-  media query
-  
-  
-  
-  media type
-  
-  print
-  
-  
-  speech
-  
-  screen  all
-  
-  
-  
-  media feature
-  
-  <1000px
-  
-  */
   
   @media all and (max-width:1200px) and (min-width:900px){
       .our-baking .item{
@@ -232,21 +208,3 @@
   
   }
   
-  
-  /*
-  
-  
-  bootstrap
-  
-  xlarge >1200px 
-  
-  large  (992px - 768px)
-  
-  
-  medium  (768px - 576px) 
-  
-  small   567px
-  
-  
-  
-  */
